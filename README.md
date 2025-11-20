@@ -14,7 +14,11 @@ PC with Linux operating system
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 
 # PROGRAM:
-#include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h> 
+#include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
 long int cd(longint); void encrypt();
@@ -102,7 +106,7 @@ for(i=0;m[i]!=-1; i++
 )
 printf("%c",m[i]);
 }
-
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 
 
@@ -110,6 +114,7 @@ printf("%c",m[i]);
 # OUTPUT:
 
  
+<img width="888" height="528" alt="image" src="https://github.com/user-attachments/assets/c5d8e79e-fb63-4831-aeab-581b9857a0e0" />
 
 
 # RESULT:
